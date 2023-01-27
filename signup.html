@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignUp Page</title>
+    <link rel="icon" type="image/x-icon" href="./namaste.jpg" />
+    <link rel="stylesheet" href="signup.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="head">
+        <img class="namaste-img" src="namaste.jpg" alt="Namaste logo" />
+        <span class="heading">SWAGATTAM</span>
+      </div>
+      <div class="details">
+        <form class="form">
+          <!-- <label class="firstname" for="username">First Name</label> <br /> -->
+          <input
+            class="box1"
+            type="text"
+            name="username"
+            id="username"
+            placeholder="First Name"
+            required
+          />
+          <br />
+          <!-- <label class="lastname" for="username">Last Name</label> <br /> -->
+          <input
+            class="box2"
+            type="text"
+            name="username"
+            id="username"
+            placeholder="Last Name"
+          />
+          <br />
+          <!-- <label class="email" for="username">Email</label> <br /> -->
+          <input
+            class="box3"
+            type="email"
+            name="username"
+            id="username"
+            placeholder="Email"
+            required
+          />
+          <br />
+          <!-- <label class="pass" for="password">Password</label> <br /> -->
+          <input
+            class="box4"
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Password"
+            required
+            minlength="8"
+            maxlength="8"
+          />
+          <br />
+          <span id="forget"
+            >Already have account?
+            <strong><a href="index.html">Log In</a></strong></span
+          >
+          <div class="login-button">
+            <button>Sign up</button>
+          </div>
+        </form>
+      </div>
+      <div class="icon-signup">
+        <div>
+          <img class="icons" src="google.png" alt="Google logo" />
+          <img class="icons" src="facebook.png" alt="Facebook logo" />
+          <img class="icons" src="linkedin.png" alt="Linkedin logo" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,135 @@
+body{
+    background: #00F260;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+    height: 510px;
+    width: 470px;
+    position: relative;
+    top: 40px;
+    left: 32%;
+    /* align-items: center; */
+    background-color: white;
+    border-radius: 10px;
+}
+.heading{
+    font-weight:bold;
+    font-size: 25px;
+    /* background-color: beige; */
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom: 40px;
+    
+    background: -webkit-linear-gradient(#5be5be, #36D1DC);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box1{
+    position: relative;
+    bottom: 10px;
+    height: 30px;
+    width: 400px;
+    position: relative;
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    box-shadow: 0px 0.1px #888888;
+    border-color: #888888;
+    /* for removing permanently border from input field */
+    outline: none; 
+}
+
+.box2{
+    position: relative;
+    bottom: 0px;
+    height: 30px;
+    width: 400px;
+    position: relative;
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    box-shadow: 0px 0.1px #888888;
+    border-color: #888888;
+    outline: none;
+}
+#forget{
+    /* background-color: antiquewhite; */
+    position: relative;
+    bottom: 10px;
+    left: 150px;
+    font-size: small;
+    text-align: right;
+}
+.login-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom: 0px;
+}
+button{
+    height: 40px;
+    width: 300px;
+    
+    background: #36D1DC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+}
+#signup-line{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 50px;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#signup-line a{
+    text-decoration: none;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.namaste-img{
+    height: 100px;
+    width: 130px;
+    position: relative;
+    top: 0px;
+}
+::placeholder{
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.icon-signup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 30px;
+}
+.icons{
+    height: 50px;
+    margin: 0px 5px 0px 10px;
+}
+

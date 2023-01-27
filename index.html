@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="icon" type="image/x-icon" href="./namaste.jpg" />
+    <!-- <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="head">
+        <img class="namaste-img" src="namaste.jpg" alt="Namaste logo" />
+        <span class="heading">SWAGATTAM</span>
+      </div>
+      <div class="details">
+        <form class="form">
+          <!-- <label class="user" for="username">Username</label> <br /> -->
+          <input
+            class="box1"
+            type="email"
+            name="username"
+            id="username"
+            placeholder="Enter your username"
+            required
+          />
+          <br />
+          <!-- <label class="pass" for="password">Password</label> <br /> -->
+          <input
+            class="box2"
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Enter your password"
+            required
+            minlength="8"
+            maxlength="8"
+          />
+          <br />
+          <span id="forget">forget password?</span>
+          <div class="login-button">
+            <button type="submit">Login</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="icon-signup">
+        <div>
+          <img class="icons" src="google.png" alt="Google logo" />
+          <img class="icons" src="facebook.png" alt="Facebook logo" />
+          <img class="icons" src="linkedin.png" alt="Linkedin logo" />
+        </div>
+      </div>
+      <span id="signup-line">
+        <p>Don't have account? <a href="signup.html">SignUp</a></p>
+      </span>
+      
+    </div>
+  </body>
+</html>
